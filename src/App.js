@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>
+          {/* <h1>
           Welcome to Codaisseur.
           </h1>
           <a
@@ -18,7 +18,9 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Learn React
-          </a>
+          // </a> */}
+          <h1 className="App-title">Welcome to React</h1>
+
         </header>
         <main>
       <Title content="Some Simple Title" />
